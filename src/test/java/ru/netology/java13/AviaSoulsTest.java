@@ -4,21 +4,17 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
-
 class AviaSoulsTest {
 
-    AviaSouls aviaSouls =new AviaSouls();
+    AviaSouls aviaSouls = new AviaSouls();
 
-    Ticket ticket1 = new Ticket("Москва", "Питер",1000, 12, 24);
-    Ticket ticket2 = new Ticket("Москва", "Питер",500, 11, 16);
-    Ticket ticket3 = new Ticket("Москва", "Питер",1000, 12, 24);
-    Ticket ticket4 = new Ticket("Москва", "Питер",700, 23, 1);
-    Ticket ticket5 = new Ticket("Москва", "Питер",400, 11, 12);
-    Ticket ticket6 = new Ticket("Москва", "Воронеж",400, 11, 12);
-    Ticket ticket7 = new Ticket("Москва", "Питер",800, 12, 12);
+    Ticket ticket1 = new Ticket("Москва", "Питер", 1000, 12, 24);
+    Ticket ticket2 = new Ticket("Москва", "Питер", 500, 11, 16);
+    Ticket ticket3 = new Ticket("Москва", "Питер", 1000, 12, 24);
+    Ticket ticket4 = new Ticket("Москва", "Питер", 700, 23, 1);
+    Ticket ticket5 = new Ticket("Москва", "Питер", 400, 11, 12);
+    Ticket ticket6 = new Ticket("Москва", "Воронеж", 400, 11, 12);
+    Ticket ticket7 = new Ticket("Москва", "Питер", 800, 12, 12);
 
     @BeforeEach
     public void setup() {
